@@ -1,0 +1,24 @@
+/* estilos.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00A1AA;
+    margin: 0; /* Elimina el margen predeterminado */
+    height: 100vh; /* Ajusta la altura al 100% de la altura de la ventana del navegador */
+    display: flex;
+    justify-content: center; /* Centra el contenedor horizontalmente */
+    align-items: center; /* Centra el contenedor verticalmente */
+}
+
+.container {
+    position: relative;
+    width: 100%; /* Ocupa todo el ancho de la ventana del navegador */
+    max-width: 600px; /* Ancho máximo del contenedor */
+    background-color: #00A1AA;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+#pantalla-inicial img {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: auto; /* El alto se ajusta automáticamente según el ancho para mantener las proporciones */
+}
